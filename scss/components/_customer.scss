@@ -1,0 +1,55 @@
+.customer-list-item {
+  width: calc((100% - 2 * 30px) / 2);
+    height: 90px;
+    margin: 15px;
+  
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 3 * 30px) / 3);
+    }
+  
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - 6 * 30px) / 6);
+}
+}
+.customer-list {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.link-customer {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: $acent-color;
+  display: flex;
+  border: 1px solid $acent-color;
+  border-radius: 4px;
+  justify-content: center;
+  transition: color $time-hover $cubic-for-all,
+  border $time-hover $cubic-for-all;
+
+  &:hover,
+  &:focus {
+  border: 1px solid $color-button-accent;
+  color: $color-button-accent;
+  }
+}
+
+.customer-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  
+    @media screen and (min-width: 1200px) {
+      font-size: 36px;
+      line-height: 42px;
+    }
+}
+
+.customer-icon {
+  fill: currentColor;
+}
