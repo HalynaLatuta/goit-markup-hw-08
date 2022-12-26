@@ -16,25 +16,26 @@
 //   color: var(--color-logo);
 // }
 
-// .logo-footer {
-//   display: inline-block;
-//   color: var(--color-button-accent);
-//   margin-bottom: 20px;
-//   font-family: 'Raleway', sans-serif;
-//   font-weight: 700;
-//   font-size: 24px;
-//   line-height: 28px;
-//   letter-spacing: 0.03em;
-//   color: var(--color-button-accent);
+.logo-footer {
+  display: inline-block;
+  color: $color-button-accent;
+  margin-bottom: 28px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: $color-button-accent;
 
-//   @media screen and (min-width: 1200px) {
-//       font-size: 26px;
-//       line-height: 31px;
-// }
-// }
+  @media screen and (min-width: 1200px) {
+      font-size: 26px;
+      line-height: 31px;
+}
+}
 
-// .logo-last-part-footer {
-//   color: var(--color-text-white);
-// }
+.logo-last-part-footer {
+  color: $color-text-white;
+}
 
 
