@@ -19,6 +19,7 @@
       flex-wrap: wrap;
       align-items: baseline;
       justify-content: center;
+      margin: 15px;
     }
 }
 
@@ -48,7 +49,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  // line-height: 24px;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 
@@ -67,11 +67,6 @@
     width: 450px;
   }
 
-  @media screen and (min-width: 1200px) {
-    // width: 570px;
-    // display: flex;
-    margin-left: 93px;
-  }
 }
 .footer-title {
   font-weight: 700;
@@ -88,12 +83,6 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.subscribe-form {
-  @media screen and (min-width: 1200px) {
-  margin-left: 93px;
-}
 }
 
 .subscribe-title {

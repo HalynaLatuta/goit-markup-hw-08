@@ -1,52 +1,54 @@
-// .works {
-//   padding-top: 0;
+.section.works {
+  @media (max-width: $desktop) {
+    display: none;
+  }
+}
 
-//   @media (max-width: $tablet) {
-//     display: none;
-//   }
-// }
+.works {
+  padding-top: 0;
+}
 
-// .section-title.works {
-//   font-size: 36px;
-//   line-height: 42px;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-//   margin-bottom: 50px;
-// }
+.section-title.works {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
 
-// .our-works-list {
-//   display: flex;
-// }
+.our-works-list {
+  display: flex;
+}
 
-// .works-card {
-//   // flex-basis: calc((100% -2*30px)/ 3);
-//   position: relative;
-//   margin-right: 30px;
-// }
+.works-card {
+  // flex-basis: calc((100% -2*30px)/ 3);
+  position: relative;
+  margin-right: 30px;
+}
 
-// .works-card:last-child {
-//   margin-right: 0;
-// }
+.works-card:last-child {
+  margin-right: 0;
+}
 
-// /*оформляємо блок чим ми займаємося, позіціонування поверх картинок*/
-// .box-label {
-//   position: absolute;
-//   width: 370px;
-//   height: 70px;
-//   left: 0;
-//   bottom: 0;
-//   background-color: rgba(47, 48, 58, 0.8);
-// }
+/*оформляємо блок чим ми займаємося, позіціонування поверх картинок*/
+.box-label {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 
-// .label {
-//   position: absolute;
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 16px;
-//   letter-spacing: 0.03em;
-//   text-transform: uppercase;
-//   color: var(--color-text-white);
-//   left: 50%;
-//   top: 50%;
-//   transform: translate(-50%, -50%);
-// }
+.label {
+  position: absolute;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text-white);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
