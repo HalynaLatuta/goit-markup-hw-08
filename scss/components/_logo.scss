@@ -6,12 +6,12 @@
   letter-spacing: 0.03em;
   color: var(--color-button-accent);
      display: block;
-     padding: 16px 0;
+     padding: 16px auto 26px 15px;
 
   @media screen and (min-width: 1200px) {
       font-size: 26px;
       line-height: 31px;
-         padding: 26px 0;
+         padding: 26px auto 26px 15px;
     }
 }
 
