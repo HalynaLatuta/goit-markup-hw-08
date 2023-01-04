@@ -19,11 +19,12 @@
       flex-wrap: wrap;
       align-items: baseline;
       justify-content: center;
-      margin: 15px;
+      // margin: 15px;
     }
 @media screen and (min-width: 1200px) {
   margin: 0 auto;
   justify-content: left;
+
 }
 }
 
@@ -110,7 +111,22 @@
 }
 
 .subscribe-items {
-  display: flex;
+  display: block;
+
+@media screen and (min-width: 768px) {
+    display: block;
+    align-items: center;
+    flex-basis: 294px;
+    margin-left: 88px;
+    gap: 50px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    flex-basis: 294px;
+    margin-left: 94px;
+  }
 
 }
 
